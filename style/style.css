@@ -27,11 +27,7 @@ h2 {
 h3 {
   font-size: 24px;
   color: rgb(107, 107, 107);
-  margin: 30px 0 0 0;
-}
-p {
-  padding: 20px;
-  margin: 20px 0 20px;
+  margin: 30px;
 }
 
 .navigation-links,
@@ -89,4 +85,18 @@ p {
 }
 #contact {
   margin: 40px;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .images {
+    display: none;
+  }
 }
